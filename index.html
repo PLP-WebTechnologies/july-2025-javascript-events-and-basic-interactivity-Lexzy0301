@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade With Lexzy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Trade With Lexzy</h1>
+
+  <!-- Event Handling -->
+  <section>
+    <h2>Gift For You </h2>
+    <button id="msgBtn">Click Me</button>
+    <p id="msgOutput"></p>
+  </section>
+
+  <!-- Form -->
+  <section>
+    <h2>Form</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <span class="error" id="nameError"></span><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" required>
+      <span class="error" id="emailError"></span><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <span class="error" id="passwordError"></span><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="Successful"></p>
+
+      <!-- Interactive Elements -->
+     <section>
+    <h2>Interactive Elements</h2>
+    
+    <!-- Light/Dark Mode Toggle -->
+    <button id="toggleModeBtn">Toggle Dark/Light Mode</button>
+
+    <!-- Counter -->
+    <div class="counter">
+      <button id="decreaseBtn">-</button>
+      <span id="countValue">0</span>
+      <button id="increaseBtn">+</button>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div class="faq">
+      <button class="faq-toggle">What is TWL ?</button>
+      <p class="faq-content">Trade with lexzy is an exchange platform where we buy/sell crypto currencies and also exchange to your local currency.</p>
+    </div>
+  </section>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

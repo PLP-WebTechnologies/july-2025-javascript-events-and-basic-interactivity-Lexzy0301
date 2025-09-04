@@ -1,0 +1,49 @@
+h1{
+    color: floralwhite;
+    text-align:center;
+    margin: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: goldenrod;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter span {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.faq-content {
+  display: none;
+  margin-top: 5px;
+  color: #444;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+#formSuccess {
+  color: green;
+  font-weight: bold;
+}
